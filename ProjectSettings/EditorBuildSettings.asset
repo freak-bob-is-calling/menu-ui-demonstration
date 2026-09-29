@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainmenu.unity
+    guid: cdd49de71b64f2340a4356951ec8fc8b
+  - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/settings menu.unity
+    guid: 866375f34f3d7c44f82e054a7075cf14
+  - enabled: 1
+    path: Assets/Scenes/are you sure quit button.unity
+    guid: a46ec79ccdbeed945a4a38554ad167d4
+  - enabled: 1
+    path: Assets/Scenes/pause menu.unity
+    guid: ce01aca089e2d154b8a2fff456a35531
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
