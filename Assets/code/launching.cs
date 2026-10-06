@@ -79,10 +79,6 @@ public class SettingsAndMovement : MonoBehaviour
         {
             rb.AddForce(new Vector3(0f, jf * Time.deltaTime, 0f), ForceMode.Impulse);
         }
-            if (Input.GetKey(KeyCode.Escape))
-            {
-                SceneManager.LoadScene(4);
-            }
     }
 
 }
