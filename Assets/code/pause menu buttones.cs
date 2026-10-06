@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class pausemenubuttones : MonoBehaviour
 {
-    public void Settingsmenu()
+    
+    public void BackButton()
     {
-        Debug.Log("settings menu button pressed");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void Quitbutton()
